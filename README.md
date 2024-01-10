@@ -1,9 +1,28 @@
 # URL Hider for Google Search
 
-> Suhas | 2024
+> Sp1d3R | 2024
+
+## Description
+
+Hides URLs with a custom filter list
+
+![](./images/block_link.png)
+
+Clicking the above "X" mark will add the URL to the block list
+
+![](./images/ui1.png)
+
+The above window is obtained on clicking the extension icon.
+
+The URL is added to the filter list.
+
+The text box (above) can be used to add a link to the filter list.
+
+Clicking the URL would remove the link.
+
+![](./images/log.png)
 
 ## TODO List
-
 
 * Handle `People also ask section`
 * Handle `Related searches`
