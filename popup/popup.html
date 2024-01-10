@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container" style="width: 400px; height: max-content">
+        <div class="card m-1 p-1">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="card-title">URL Hider for Google Search</h2>
+                </div>
+
+                <div class="card-subtitle text-muted mt-1">
+                    Current list of URLs (Click to remove)
+                    <div id="blocked-urls-display" class="border border-border-primary" style="height: max-content; max-height: 400px; overflow-y: scroll;">
+                        
+                    </div>
+                </div>
+
+                <div class="url-entry-form d-flex my-3">
+                    <input type="text" class="form-control mx-1" id="url-entry"
+                        placeholder="Enter a URL/Pattern to hide" />
+
+                    <button type="button" class="btn btn-danger" id="url-entry-button">
+                        Hide
+                    </button>
+                </div>
+                
+                <div class="m-1">
+                    <div id="logging">
+                        
+                    </div>
+                </div>    
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>

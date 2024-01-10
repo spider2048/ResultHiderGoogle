@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "URL Hider",
+    "version": "1.0",
+    "description": "Hides results in Google Search",
+    "permissions": [
+      "activeTab", "storage"
+    ],
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.google.com/*"],
+        "js": ["content/content.js"]
+      }
+    ],
+    "web_accessible_resources": ["content/cross.svg"]
+}
