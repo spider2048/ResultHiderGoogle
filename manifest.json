@@ -18,11 +18,14 @@
         "*://www.google.com/*"
       ],
       "js": [
-        "content/content.js"
+        "content/constants.js",
+        "content/content.js",
+        "content/storage.js",
+        "content/hide-links.js"
       ]
     }
   ],
   "web_accessible_resources": [
-    "content/cross.png"
+    "content/img/cross.png"
   ]
 }
